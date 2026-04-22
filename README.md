@@ -14,14 +14,14 @@ A Slatewave sidebar theme for [Slack](https://slack.com) — slate foundation, t
 
 Slack's "Custom theme" input accepts eight comma-separated hex colors that drive the left sidebar, channel list, presence dots, and mention badges. Slatewave maps them like this:
 
-- **Column BG** — slate-800 `#1E293B`, matching the VSCode ANSI black and terminal sidebar tones
-- **Menu BG** — `#282C34`, the Slatewave editor background; used for the workspace-switcher and slash-menu surface
-- **Active Item** — slate-700 `#334155`, mirroring VSCode's `list.activeSelectionBackground` for a calm, non-competing highlight
-- **Active Item Text** — teal-300 `#5EEAD4`, the signature accent; pops the currently selected channel or DM
-- **Hover Item** — `#282C34`, one step lighter than the column for a subtle hover affordance
-- **Text Color** — slate-200 `#E2E8F0`, matching the VSCode editor foreground
-- **Active Presence** — teal-300 `#5EEAD4`, replacing Slack's default green to keep the palette consistent
-- **Mention Badge** — rose-400 `#FB7185`, matching ANSI red across the companion themes
+- ![#1E293B](https://placehold.co/16x16/1e293b/1e293b.png) **Column BG** — slate-800 `#1E293B`, matching the VSCode ANSI black and terminal sidebar tones
+- ![#282C34](https://placehold.co/16x16/282c34/282c34.png) **Menu BG** — `#282C34`, the Slatewave editor background; used for the workspace-switcher and slash-menu surface
+- ![#334155](https://placehold.co/16x16/334155/334155.png) **Active Item** — slate-700 `#334155`, mirroring VSCode's `list.activeSelectionBackground` for a calm, non-competing highlight
+- ![#5EEAD4](https://placehold.co/16x16/5eead4/5eead4.png) **Active Item Text** — teal-300 `#5EEAD4`, the signature accent; pops the currently selected channel or DM
+- ![#282C34](https://placehold.co/16x16/282c34/282c34.png) **Hover Item** — `#282C34`, one step lighter than the column for a subtle hover affordance
+- ![#E2E8F0](https://placehold.co/16x16/e2e8f0/e2e8f0.png) **Text Color** — slate-200 `#E2E8F0`, matching the VSCode editor foreground
+- ![#5EEAD4](https://placehold.co/16x16/5eead4/5eead4.png) **Active Presence** — teal-300 `#5EEAD4`, replacing Slack's default green to keep the palette consistent
+- ![#FB7185](https://placehold.co/16x16/fb7185/fb7185.png) **Mention Badge** — rose-400 `#FB7185`, matching ANSI red across the companion themes
 
 ---
 
@@ -61,16 +61,16 @@ Then paste into Slack's custom theme dialog as above.
 
 Slatewave shares its palette with the companion themes. The eight slots, in Slack's custom-theme order:
 
-| # | Slot | Hex | Tailwind | Role |
-|---|---|---|---|---|
-| 1 | Column BG | `#1E293B` | slate-800 | sidebar background |
-| 2 | Menu BG | `#282C34` | — | workspace menu / slash-menu surface |
-| 3 | Active Item | `#334155` | slate-700 | selected channel background |
-| 4 | Active Item Text | `#5EEAD4` | teal-300 | selected channel text (signature) |
-| 5 | Hover Item | `#282C34` | — | hover background |
-| 6 | Text Color | `#E2E8F0` | slate-200 | default sidebar text |
-| 7 | Active Presence | `#5EEAD4` | teal-300 | online indicator dot |
-| 8 | Mention Badge | `#FB7185` | rose-400 | unread mention badge |
+| # | | Slot | Hex | Tailwind | Role |
+|---|---|---|---|---|---|
+| 1 | ![#1E293B](https://placehold.co/20x20/1e293b/1e293b.png) | Column BG | `#1E293B` | slate-800 | sidebar background |
+| 2 | ![#282C34](https://placehold.co/20x20/282c34/282c34.png) | Menu BG | `#282C34` | — | workspace menu / slash-menu surface |
+| 3 | ![#334155](https://placehold.co/20x20/334155/334155.png) | Active Item | `#334155` | slate-700 | selected channel background |
+| 4 | ![#5EEAD4](https://placehold.co/20x20/5eead4/5eead4.png) | Active Item Text | `#5EEAD4` | teal-300 | selected channel text (signature) |
+| 5 | ![#282C34](https://placehold.co/20x20/282c34/282c34.png) | Hover Item | `#282C34` | — | hover background |
+| 6 | ![#E2E8F0](https://placehold.co/20x20/e2e8f0/e2e8f0.png) | Text Color | `#E2E8F0` | slate-200 | default sidebar text |
+| 7 | ![#5EEAD4](https://placehold.co/20x20/5eead4/5eead4.png) | Active Presence | `#5EEAD4` | teal-300 | online indicator dot |
+| 8 | ![#FB7185](https://placehold.co/20x20/fb7185/fb7185.png) | Mention Badge | `#FB7185` | rose-400 | unread mention badge |
 
 ### Visual anchors
 
