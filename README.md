@@ -72,17 +72,6 @@ Slatewave shares its palette with the companion themes. The eight slots, in Slac
 | 7 | ![#5EEAD4](https://placehold.co/20x20/5eead4/5eead4.png) | Active Presence | `#5EEAD4` | teal-300 | online indicator dot |
 | 8 | ![#FB7185](https://placehold.co/20x20/fb7185/fb7185.png) | Mention Badge | `#FB7185` | rose-400 | unread mention badge |
 
-### Visual anchors
-
-| | Hex | Tailwind | Role |
-|---|---|---|---|
-| ![#1E293B](https://placehold.co/20x20/1e293b/1e293b.png) | `#1E293B` | slate-800 | column background |
-| ![#282C34](https://placehold.co/20x20/282c34/282c34.png) | `#282C34` | — | menu / hover surface |
-| ![#334155](https://placehold.co/20x20/334155/334155.png) | `#334155` | slate-700 | active item |
-| ![#E2E8F0](https://placehold.co/20x20/e2e8f0/e2e8f0.png) | `#E2E8F0` | slate-200 | text |
-| ![#5EEAD4](https://placehold.co/20x20/5eead4/5eead4.png) | `#5EEAD4` | teal-300 | active text / presence |
-| ![#FB7185](https://placehold.co/20x20/fb7185/fb7185.png) | `#FB7185` | rose-400 | mention badge |
-
 ---
 
 ## Customize
